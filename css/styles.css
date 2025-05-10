@@ -1,0 +1,94 @@
+body {
+	--font-family: "Roboto", sans-serif;
+	--second-family: "Raleway", sans-serif;
+
+	--iris: #4d5ae5;
+	--ocean: #404bbf;
+	--navy-blue: #2e2f42;
+	--green: #31d0aa;
+	--slate: #434455;
+	--light-slate: #8e8f99;
+	--cornflower: #e7e9fc;
+	--cloud: #f4f4fd;
+	--navy-blue-modal: rgba(46, 47, 66, 0.4);
+	--grey: rgba(46, 47, 66, 0.7);
+	--white: #fff;
+	--dairy: #fcfcfc;
+}
+
+/* Загальний контейнер */
+.container {
+	max-width: 1440px;
+	max-height: 72px;
+	margin: 0 auto;
+	padding: 20px 15px;
+}
+
+/* Хедер */
+.page-header {
+	border-bottom: 1px solid #e7e9fc;
+}
+
+/* Flex-контейнер */
+.header-container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+/* Логотип */
+.logo {
+	font-size: 24px;
+	font-weight: 700;
+	text-decoration: none;
+	font-family: var(--second-family);
+	width: 115px;
+	height: 24px;
+	margin-left: 156px;
+	margin-top: 24px;
+}
+
+.logo-blue {
+	color: var(--iris);
+}
+
+.logo-dark {
+	color: var(--navy-blue);
+}
+
+/* Навігація */
+.nav {
+	display: flex;
+	gap: 40px;
+	width: 261px;
+	height: 24px;
+}
+
+.nav a {
+	font-family: var(--font-family);
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 150%;
+	letter-spacing: 0.02em;
+	color: var(--navy-blue);
+	text-decoration: none;
+}
+
+/* Контакти */
+.contacts {
+	display: flex;
+	gap: 20px;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.contacts a {
+	font-family: var(--font-family);
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 150%;
+	letter-spacing: 0.02em;
+	color: var(--slate);
+	text-decoration: none;
+}
