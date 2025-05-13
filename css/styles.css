@@ -30,8 +30,11 @@ nav span {
 	color: #404bbf;
 }
 
-.header-contact {
+.header-address {
 	font-style: normal;
+}
+
+.header-contact {
 	font-size: 16px;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
