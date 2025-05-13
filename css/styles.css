@@ -30,7 +30,7 @@ nav span {
 	color: #404bbf;
 }
 
-.header-contacts {
+.header-contact {
 	font-style: normal;
 	font-size: 16px;
 	line-height: 1.5;
@@ -38,7 +38,7 @@ nav span {
 	color: #434455;
 }
 
-.header-contacts:hover,
-.header-contacts:focus {
+.header-contact:hover,
+.header-contact:focus {
 	color: #404bbf;
 }
