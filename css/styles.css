@@ -113,7 +113,11 @@ footer span {
 	color: #f4f4fd;
 }
 
-footer-styles-parag {
+.footer-styles-logo {
+	color: #f4f4fd;
+}
+
+.footer-styles-parag {
 	line-height: 1.5;
 	color: #f4f4fd;
 	letter-spacing: 0.02em;
