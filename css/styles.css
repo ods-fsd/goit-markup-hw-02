@@ -45,3 +45,30 @@ nav span {
 .header-contact:focus {
 	color: #404bbf;
 }
+
+.sec-one {
+	background-color: #2e2f42;
+}
+
+.sec-one-title {
+	font-size: 56px;
+	line-height: 1.07;
+	text-align: center;
+	letter-spacing: 0.02em;
+	color: #ffffff;
+}
+
+.sec-one-button {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 150%;
+	letter-spacing: 0.04em;
+	color: #ffffff;
+	background-color: #4d5ae5;
+}
+
+.sec-one-button:hover,
+.sec-one-button:focus {
+	color: #404bbf;
+	cursor: pointer;
+}
