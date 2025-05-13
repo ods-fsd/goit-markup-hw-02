@@ -18,4 +18,25 @@ nav span {
 }
 
 .nav-menu {
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: #2e2f42;
+}
+
+.nav-menu :hover :focus {
+	color: #404bbf;
+}
+
+.header-contacts {
+	font-style: normal;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: #434455;
+}
+
+.header-contacts :hover :focus {
+	color: #404bbf;
 }
