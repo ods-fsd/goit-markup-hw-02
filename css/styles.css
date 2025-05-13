@@ -69,6 +69,6 @@ nav span {
 
 .sec-one-button:hover,
 .sec-one-button:focus {
-	color: #404bbf;
+	background-color: #404bbf;
 	cursor: pointer;
 }
