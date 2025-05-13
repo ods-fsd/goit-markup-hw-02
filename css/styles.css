@@ -101,6 +101,20 @@ nav span {
 	color: #2e2f42;
 }
 
-.sec-three-ul {
+.sec-three-li {
 	background-color: #ffffff;
+}
+
+.footer-styles {
+	background-color: #2e2f42;
+}
+
+footer span {
+	color: #f4f4fd;
+}
+
+footer-styles-parag {
+	line-height: 1.5;
+	color: #f4f4fd;
+	letter-spacing: 0.02em;
 }
