@@ -1,20 +1,20 @@
 body {
-	font-family: "Roboto", sans-serif;
-	second-family: "Raleway", sans-serif;
+	--font-family: "Roboto", sans-serif;
+	--second-family: "Raleway", sans-serif;
+	--background-color: #ffffff;
 
-	iris: #4d5ae5;
-	ocean: #404bbf;
-	navy-blue: #2e2f42;
-	green: #31d0aa;
-	float: #434455;
-	light-slate: #8e8f99;
-	cornflower: #e7e9fc;
-	cloud: #f4f4fd;
-	navy-blue-modal: rgba(46, 47, 66, 0.4);
-	grey: rgba(46, 47, 66, 0.7);
-	white: #fff;
-	dairy: #fcfcfc;
-	background-color: #ffffff;
+	--iris: #4d5ae5;
+	--ocean: #404bbf;
+	--navy-blue: #2e2f42;
+	--green: #31d0aa;
+	--slate: #434455;
+	--light-slate: #8e8f99;
+	--cornflower: #e7e9fc;
+	--cloud: #f4f4fd;
+	--navy-blue-modal: rgba(46, 47, 66, 0.4);
+	--grey: rgba(46, 47, 66, 0.7);
+	--white: #fff;
+	--dairy: #fcfcfc;
 }
 
 .logo {
@@ -27,6 +27,12 @@ body {
 	color: var(--iris);
 }
 
-.logo span {
+nav span {
+	font-family: var(--second-family);
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 117%;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
 	color: var(--navy-blue);
 }
