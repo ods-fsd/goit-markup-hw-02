@@ -6,7 +6,7 @@ body {
 	ocean: #404bbf;
 	navy-blue: #2e2f42;
 	green: #31d0aa;
-	slate: #434455;
+	float: #434455;
 	light-slate: #8e8f99;
 	cornflower: #e7e9fc;
 	cloud: #f4f4fd;
@@ -15,4 +15,18 @@ body {
 	white: #fff;
 	dairy: #fcfcfc;
 	background-color: #ffffff;
+}
+
+.logo {
+	font-family: var(--second-family);
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 117%;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	color: var(--iris);
+}
+
+.logo span {
+	color: var(--navy-blue);
 }
