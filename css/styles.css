@@ -4,8 +4,14 @@ body {
 	color: #434455;
 }
 
-a {text-decoration: none;}
-ul {list-style: none;}
+/* прибираємо крапки у списках і підкреслення у посиланнях */
+
+a {
+	text-decoration: none;
+}
+ul {
+	list-style: none;
+}
 
 .logo {
 	font-family: "Raleway", sans-serif;
